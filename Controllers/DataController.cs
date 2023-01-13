@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace AngularWithWindowsAuth.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [Authorize]
     public class DataController : ControllerBase
     {
